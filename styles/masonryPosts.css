@@ -1,0 +1,15 @@
+.body {
+  margin: 0px;
+  padding: 1rem;
+}
+
+.masonryWithColumns {
+  columns: 3 300px;
+  column-gap: 2rem;
+}
+
+.masonryWithColumns div {
+  background: #ec985a;
+  margin: 0 1rem 1rem 0;
+  width: 100%;
+}
