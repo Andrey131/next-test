@@ -18,7 +18,16 @@ export default function Home() {
           <a>posts</a>
         </Link>
       </p>
-      <p>{process.env.EXAMPLE_ENV}</p>
+      <p>
+        <a> PRIVATE_API_KEY: {process.env.NEXT_PUBLIC_PRIVATE_API_KEY} </a>{" "}
+        <br />
+        <a> PROD_ENV: {process.env.NEXT_PUBLIC_PROD_ENV} </a>
+        <br />
+        <a> DEV_ENV: {process.env.NEXT_PUBLIC_DEV_ENV} </a>
+        <br />
+        <a> EXAMPLE_ENV: {process.env.NEXT_PUBLIC_EXAMPLE_ENV} </a>
+        <br />
+      </p>
     </MainLayout>
   );
 }
