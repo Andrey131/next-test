@@ -18,6 +18,7 @@ export default function Home() {
           <a>posts</a>
         </Link>
       </p>
+      <p>{process.env.EXAMPLE_ENV}</p>
     </MainLayout>
   );
 }
